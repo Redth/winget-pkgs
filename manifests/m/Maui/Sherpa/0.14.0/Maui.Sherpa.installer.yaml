@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+PackageIdentifier: Maui.Sherpa
+PackageVersion: 0.14.0
+InstallerType: inno
+Scope: user
+UpgradeBehavior: install
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Redth/MAUI.Sherpa/releases/download/v0.14.0/MAUI-Sherpa.Setup.win-x64.exe
+    InstallerSha256: 8ca0807d2f14b61e6c7ea5a1c761262058fed8ed2ac57272c59dc243a4515d8c
+  - Architecture: arm64
+    InstallerUrl: https://github.com/Redth/MAUI.Sherpa/releases/download/v0.14.0/MAUI-Sherpa.Setup.win-arm64.exe
+    InstallerSha256: 36a156a2fbade80b422580522865913747f2a7e08b247ca2f1c933774d25065e
+ManifestType: installer
+ManifestVersion: 1.12.0
+
